@@ -14,5 +14,3 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-  deploy:
-    needs: build
