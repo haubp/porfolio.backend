@@ -6,7 +6,7 @@ const userRouter = require("./routes/user.router");
 const database = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
+        host: 'host.docker.internal',
         user: 'postgres',
         password: '',
         database: 'porfolio'
